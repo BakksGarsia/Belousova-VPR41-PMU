@@ -1,0 +1,26 @@
+@startuml
+
+class ClassicCoctail {
++name
+}
+
+class Aperole
+class BloodyMary
+class LongIsland
+
+ClassicCoctail <|-- Aperole
+ClassicCoctail <|-- BloodyMary
+ClassicCoctail <|-- LongIsland
+
+
+class Coctail {
++name
+}
+
+class Recipe {
+string Components
+}
+
+Coctail o-- Recipe
+
+@enduml
