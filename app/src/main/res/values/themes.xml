@@ -1,14 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="themeRED">#ED254E</color>
+
+    <color name="themeYELLOW">#F9DC5C</color>
+
+    <color name="themeGRAY">#F4FFFD</color>
+
+    <color name="themeBLACK">#011936</color>
+
     <!-- Base application theme. -->
     <style name="Theme.LR1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/themeRED</item>
+        <item name="colorPrimaryVariant">@color/themeBLACK</item>
+        <item name="colorOnPrimary">@color/themeGRAY</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/themeYELLOW</item>
+        <item name="colorSecondaryVariant">@color/themeYELLOW</item>
+        <item name="colorOnSecondary">@color/themeBLACK</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
