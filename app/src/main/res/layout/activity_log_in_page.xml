@@ -13,6 +13,8 @@
         android:id="@+id/editTextPhone"
         android:layout_width="280dp"
         android:layout_height="60dp"
+        android:minWidth="280dp"
+        android:minHeight="60dp"
         android:ems="10"
         android:inputType="phone"
         android:text="Введите номер телефона"
