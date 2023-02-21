@@ -9,16 +9,24 @@
 
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:text="Вход"
-        android:background="#ED254E"
+        android:id="@+id/btnActivityPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/themeRED"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:minWidth="280dp"
+        android:minHeight="60dp"
+        android:onClick="startLogInPage"
+        android:text="ВХОД"
+        android:textColor="@color/themeGRAY"
+        android:textSize="20sp"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.791" />
+        app:layout_constraintVertical_bias="0.792" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
