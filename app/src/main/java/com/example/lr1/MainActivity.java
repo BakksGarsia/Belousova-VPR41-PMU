@@ -13,10 +13,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    public void startLogInPage(View view) {
-        Intent intent = new Intent(this, MenuDialogMessage.class);
+        Button btnStart = (Button) findViewById(R.id.btnActivityPage);
+        btnStart.setOnClickListener(this::onClick);
+    }
+    public void onClick (View view){
+        Intent intent;
+        intent = new Intent(this,LogInPageActivity.class);
         startActivity(intent);
     }
 }

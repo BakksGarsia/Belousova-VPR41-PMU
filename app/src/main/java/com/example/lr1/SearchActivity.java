@@ -31,24 +31,4 @@ public class SearchActivity extends AppCompatActivity implements View.OnClickLis
 
 
     }
-
-
-
-
-
-    /*@Override
-    public void onClick(View v) {
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(SearchActivity.this);
-        builder.setTitle("One question")
-                .setMessage("Is this a dialog?")
-                .setNegativeButton("Yes", new DialogInterface.OnClickListener(){
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.cancel();
-                    }
-                });
-        AlertDialog alertDialog = builder.create();
-        alertDialog.show();
-    }*/
 }
