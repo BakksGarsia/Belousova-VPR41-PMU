@@ -6,6 +6,6 @@
     <color name="themeDarkGRAY">#465362</color>
 
     <style name="Theme.LR1" parent="Theme.AppCompat">
-        <item name="colorPrimary">@color/themeGRAY</item>
+        <item name="colorPrimary">@color/themeDarkGRAY</item>
     </style>
 </resources>

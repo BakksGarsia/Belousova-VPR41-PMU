@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startLogInPage(View view) {
-        Intent intent = new Intent(this, LogInPageActivity.class);
+        Intent intent = new Intent(this, MenuDialogMessage.class);
         startActivity(intent);
     }
 }

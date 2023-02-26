@@ -41,4 +41,13 @@
             android:hint="Введите запрос" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:onClick="showDialog"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"  />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
