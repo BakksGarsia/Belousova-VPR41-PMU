@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <transition xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/cocktailsOne"></item>
-    <item android:drawable="@drawable/cocktailsTwo"></item>
+    <item android:drawable="@drawable/picone"></item>
+    <item android:drawable="@drawable/pictwo"></item>
 
 </transition>
 
