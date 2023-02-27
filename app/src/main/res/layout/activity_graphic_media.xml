@@ -4,24 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/themeDarkGRAY"
-    tools:context=".GraphicMediaActivity">
+    android:background="@color/themeYELLOW"
+    tools:context=".GraphicMediaActivity"
+    >
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="277dp"
-        android:layout_height="182dp"
+        android:id="@+id/polnayaslyapa"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:background="@drawable/polnayashlyapa"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnPlay"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@android:drawable/ic_media_play"
+        android:backgroundTint="@color/themeDarkGRAY"
+        android:onClick="musicPlay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintStart_toEndOf="@+id/btnPause"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="Enter How Much Cookies You Want"/>
+
+    <Button
+        android:id="@+id/btnPause"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="108dp"
+        android:background="@android:drawable/ic_media_pause"
+        android:backgroundTint="@color/themeDarkGRAY"
+        android:onClick="musicPause"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/picone"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.763"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="Enter How Much Cookies You Want"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

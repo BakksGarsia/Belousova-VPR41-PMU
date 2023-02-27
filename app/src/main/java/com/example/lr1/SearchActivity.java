@@ -1,15 +1,11 @@
 package com.example.lr1;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
 
-import android.content.DialogInterface;
+
 import android.os.Bundle;
 import android.view.View;
-import android.view.Menu;
-import android.app.Dialog;
-import android.app.AlertDialog;
-import androidx.annotation.NonNull;
+
 
 import com.example.lr1.databinding.ActivitySearchBinding;
 

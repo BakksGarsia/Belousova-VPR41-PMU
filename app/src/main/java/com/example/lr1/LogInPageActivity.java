@@ -97,14 +97,11 @@ public class LogInPageActivity extends AppCompatActivity {
         return true;
     }
 
-   // public void showInfoMessage(String text){}
 
      public void startGraphicMedia(View view) {
         Intent intent = new Intent(this, GraphicMediaActivity.class);
         startActivity(intent);
     }
 
-      // Toast toast = Toast.makeText(context, "Вам необходимо прочитать сообщение",Toast.LENGTH_LONG);
-        //toast.show();
 
 }
