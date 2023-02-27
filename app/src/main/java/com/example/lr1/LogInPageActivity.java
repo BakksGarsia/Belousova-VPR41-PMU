@@ -99,8 +99,8 @@ public class LogInPageActivity extends AppCompatActivity {
 
    // public void showInfoMessage(String text){}
 
-     public void startSearch(View view) {
-        Intent intent = new Intent(this, SearchActivity.class);
+     public void startGraphicMedia(View view) {
+        Intent intent = new Intent(this, GraphicMediaActivity.class);
         startActivity(intent);
     }
 

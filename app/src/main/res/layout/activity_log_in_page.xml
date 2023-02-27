@@ -58,7 +58,8 @@
         android:gravity="center"
         android:minWidth="280dp"
         android:minHeight="60dp"
-        android:text="АВТОРИЗОВАТЬСЯ"
+        android:onClick="startGraphicMedia"
+        android:text="ПОСМОТРЕТЬ МЕДИА"
         android:textColor="@color/themeDarkGRAY"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,6 +68,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.867" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
