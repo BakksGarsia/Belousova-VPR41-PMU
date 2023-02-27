@@ -2,7 +2,6 @@ package com.example.lr1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
-
 import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -15,6 +14,9 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.Toast;
 import android.view.Menu;
+import android.view.View;
+
+import com.example.lr1.R;
 
 public class LogInPageActivity extends AppCompatActivity {
     private static final String CHANNEL_NAME = "my channel";
@@ -95,16 +97,14 @@ public class LogInPageActivity extends AppCompatActivity {
         return true;
     }
 
-    /*public void showInfoMessage(String text){
+   // public void showInfoMessage(String text){}
 
-    }
-
-     /*public void startSearch(View view) {
+     public void startSearch(View view) {
         Intent intent = new Intent(this, SearchActivity.class);
         startActivity(intent);
     }
 
-       Toast toast = Toast.makeText(context, "Вам необходимо прочитать сообщение",Toast.LENGTH_LONG);
-        toast.show();*/
+      // Toast toast = Toast.makeText(context, "Вам необходимо прочитать сообщение",Toast.LENGTH_LONG);
+        //toast.show();
 
 }
