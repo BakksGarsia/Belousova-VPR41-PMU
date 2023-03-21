@@ -17,10 +17,10 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.822" />
+        app:layout_constraintVertical_bias="0.774" />
 
     <TextView
         android:id="@+id/textView"
@@ -32,5 +32,26 @@
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
     />
+
+    <Button
+        android:id="@+id/btnAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/themeDarkGRAY"
+        android:contentDescription="Enter How Much Cookies You Want"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:minWidth="280dp"
+        android:minHeight="60dp"
+        android:onClick="startAPIActivity"
+        android:text="Перейти к работе с API"
+        android:textColor="@color/themeYELLOW"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
