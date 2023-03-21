@@ -103,5 +103,4 @@ public class LogInPageActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
 }

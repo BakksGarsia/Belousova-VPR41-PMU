@@ -2,6 +2,7 @@ package com.example.lr1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
@@ -35,4 +36,10 @@ public class GraphicMediaActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
+
+    public void startFile(View view) {
+        Intent intent = new Intent(this, FileActivity.class);
+        startActivity(intent);
+    }
+
 }
