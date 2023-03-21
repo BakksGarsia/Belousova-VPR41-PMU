@@ -44,6 +44,8 @@
 | --- | --- | --- |
 | 1.0 | 21.10.08 | Applebread |
 | 1/1 | 09/02/09 | Bender |
+> 
+> [Untitled](https://www.notion.so/7397085b62a14c369b5e48384f1741ad)
  ![стр 10 кадр](https://user-images.githubusercontent.com/55590294/218471807-2ea7a1f3-bf59-40f6-8587-38ecf2cfa421.jpg)
  ![стр 11 кадр](https://user-images.githubusercontent.com/55590294/218471864-06fbe9ec-cbf9-44ed-b7ef-8b6c41fe759c.jpg)
 
