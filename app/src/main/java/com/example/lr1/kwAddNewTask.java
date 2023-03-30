@@ -25,7 +25,7 @@ import com.example.lr1.Utils.DatabaseHandler;
 
 import java.util.Objects;
 
-public class AddNewTask extends BottomSheetDialogFragment {
+public class kwAddNewTask extends BottomSheetDialogFragment {
 
     public static final String TAG = "ActionBottomDialog";
     private EditText newTaskText;
@@ -33,8 +33,8 @@ public class AddNewTask extends BottomSheetDialogFragment {
 
     private DatabaseHandler db;
 
-    public static AddNewTask newInstance(){
-        return new AddNewTask();
+    public static kwAddNewTask newInstance(){
+        return new kwAddNewTask();
     }
 
     @Override

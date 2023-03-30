@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.lr1.Model.ToDoModel;
 import com.example.lr1.kwMainActivity;
 
-import com.example.lr1.AddNewTask;
+import com.example.lr1.kwAddNewTask;
 import com.example.lr1.R;
 import com.example.lr1.Utils.DatabaseHandler;
 
@@ -88,9 +88,9 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
         Bundle bundle = new Bundle();
         bundle.putInt("id", item.getId());
         bundle.putString("task", item.getTask());
-        AddNewTask fragment = new AddNewTask();
+        kwAddNewTask fragment = new kwAddNewTask();
         fragment.setArguments(bundle);
-        fragment.show(activity.getSupportFragmentManager(), AddNewTask.TAG);
+        fragment.show(activity.getSupportFragmentManager(), kwAddNewTask.TAG);
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

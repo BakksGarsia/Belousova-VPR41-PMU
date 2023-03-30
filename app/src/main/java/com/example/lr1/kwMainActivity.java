@@ -52,7 +52,7 @@ public class kwMainActivity extends AppCompatActivity implements kwDialogCloseLi
         tasksRecyclerView.setAdapter(tasksAdapter);
 
         ItemTouchHelper itemTouchHelper = new
-                ItemTouchHelper(new RecyclerItemTouchHelper(tasksAdapter));
+                ItemTouchHelper(new kwRecyclerItemTouchHelper(tasksAdapter));
         itemTouchHelper.attachToRecyclerView(tasksRecyclerView);
 
         fab = findViewById(R.id.fab);
@@ -65,7 +65,7 @@ public class kwMainActivity extends AppCompatActivity implements kwDialogCloseLi
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG);
+                kwAddNewTask.newInstance().show(getSupportFragmentManager(), kwAddNewTask.TAG);
             }
         });
     }
