@@ -29,7 +29,7 @@ public class LogInPageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_log_in_page);
 
 
-        createNotificationChannel();
+        /*createNotificationChannel();
         Context context = getApplicationContext();
 
 
@@ -75,11 +75,11 @@ public class LogInPageActivity extends AppCompatActivity {
         dialog.show();
 
         Toast longToast = Toast.makeText(context, "Вам необходимо прочитать сообщение",Toast.LENGTH_LONG);
-        longToast.show();
+        longToast.show();*/
 
     }
 
-    private void createNotificationChannel(){
+    /*private void createNotificationChannel(){
         CharSequence name = CHANNEL_NAME;
         String description = "my channel descriptions";
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
@@ -95,12 +95,17 @@ public class LogInPageActivity extends AppCompatActivity {
 
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
-    }
+    }*/
 
-
-     public void startGraphicMedia(View view) {
-        Intent intent = new Intent(this, GraphicMediaActivity.class);
+    public void startCatalogActivity(View view) {
+        Intent intent = new Intent(this, CatalogActivity.class);
         startActivity(intent);
     }
+
+
+     /*public void startGraphicMedia(View view) {
+        Intent intent = new Intent(this, GraphicMediaActivity.class);
+        startActivity(intent);
+    }*/
 
 }

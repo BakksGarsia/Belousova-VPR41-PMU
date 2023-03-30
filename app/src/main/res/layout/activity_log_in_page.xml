@@ -4,22 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/themeGRAY"
-
+    android:background="@drawable/back"
     tools:context=".LogInPageActivity">
 
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/editText"
         android:layout_width="280dp"
         android:layout_height="60dp"
         android:background="@color/themeDarkGRAY"
         android:ems="10"
-        android:inputType="phone"
+        android:inputType="text"
         android:minWidth="280dp"
         android:minHeight="60dp"
         android:singleLine="false"
-        android:text="Введите номер телефона"
+        android:text="Введите имя пользователя"
         android:textColor="@color/themeGRAY"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,8 +48,9 @@
         app:layout_constraintVertical_bias="0.318"
         tools:text="Введите пароль" />
 
+
     <Button
-        android:id="@+id/btnAutorize"
+        android:id="@+id/btnLogInApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/themeYELLOW"
@@ -58,8 +58,8 @@
         android:gravity="center"
         android:minWidth="280dp"
         android:minHeight="60dp"
-        android:onClick="startGraphicMedia"
-        android:text="ПОСМОТРЕТЬ МЕДИА"
+        android:onClick="startCatalogActivity"
+        android:text="Войти"
         android:textColor="@color/themeDarkGRAY"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,9 +67,29 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867" />
+        app:layout_constraintVertical_bias="0.882" />
+    <!--
+        <Button
+            android:id="@+id/btnAutorize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/themeYELLOW"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:minWidth="280dp"
+            android:minHeight="60dp"
+            android:onClick="startGraphicMedia"
+            android:text="ПОСМОТРЕТЬ МЕДИА"
+            android:textColor="@color/themeDarkGRAY"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.867" />
+-->
 
 
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
