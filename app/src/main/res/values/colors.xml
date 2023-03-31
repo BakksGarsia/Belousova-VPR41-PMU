@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
     <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorPrimaryDark">@android:color/holo_green_dark</color>
+    <!--<color name="colorPrimaryDark">@android:color/holo_green_dark</color>-->
     <color name="colorAccent">#000000</color>
     <!--<color name="themeRED">#ED254E</color>
     <color name="themeYELLOW">#F9DC5C</color>

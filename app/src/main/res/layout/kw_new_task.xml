@@ -8,18 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:hint="New_task" />
+        android:hint="Новая заметка" />
 
     <Button
         android:id="@+id/newTaskButton"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/newTaskText"
-        android:textSize="16sp"
         android:layout_alignParentEnd="true"
         android:background="@color/themeRED"
-        android:text="save"
+        android:text="СОХРАНИТЬ"
         android:textAllCaps="false"
-        android:textColor="@color/themeGRAY" />
+        android:textColor="@color/themeGRAY"
+        android:textSize="14sp" />
 
 </RelativeLayout>
